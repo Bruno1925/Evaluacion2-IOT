@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "742248118626",
+    "project_id": "evaluacion3-iot-8eb5b",
+    "storage_bucket": "evaluacion3-iot-8eb5b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742248118626:android:6d310e7202febbc3cc143b",
+        "android_client_info": {
+          "package_name": "com.example.evaluacion2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLOgJ3fo7mpBfl26toTn3ybedn2WLTBBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
