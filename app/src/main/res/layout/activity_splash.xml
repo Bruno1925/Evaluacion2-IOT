@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/gray">
 
     <ImageView
         android:id="@+id/imageView"
@@ -15,7 +16,7 @@
         android:id="@+id/tvLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Evaluación 2"
+        android:text="Audiomusican't"
         android:textSize="32sp"
         android:textStyle="bold" />
 

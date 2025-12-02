@@ -4,7 +4,9 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:padding="24dp"
+    android:background="@color/gray">
+
 
     <ImageView
         android:id="@+id/imageView2"
@@ -17,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:color="@color/white"
         android:hint="Correo electrónico"
         android:inputType="textEmailAddress" />
 
@@ -26,7 +29,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:hint="Contraseña"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:color="@color/white"/>
 
     <Button
         android:id="@+id/btnLogin"
@@ -34,7 +38,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:backgroundTint="#2B3B89"
-        android:text="Iniciar sesión" />
+        android:text="Iniciar sesión"
+        android:textColorLink="#FFFFFF" />
 
     <TextView
         android:id="@+id/tvRecuperarClave"
