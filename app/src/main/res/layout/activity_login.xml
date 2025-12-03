@@ -19,7 +19,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:color="@color/white"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF"
         android:hint="Correo electrónico"
         android:inputType="textEmailAddress" />
 
@@ -28,6 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF"
         android:hint="Contraseña"
         android:inputType="textPassword"
         android:color="@color/white"/>
@@ -58,4 +61,10 @@
         android:text="Registrar nueva cuenta"
         android:textColor="#0000FF" />
 
+    <Button
+        android:id="@+id/btnSalirApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Salir de la App" />
 </LinearLayout>

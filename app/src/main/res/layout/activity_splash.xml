@@ -17,6 +17,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Audiomusican't"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF"
         android:textSize="32sp"
         android:textStyle="bold" />
 

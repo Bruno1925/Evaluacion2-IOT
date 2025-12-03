@@ -17,21 +17,36 @@
     <EditText
         android:id="@+id/etNombre"
         android:hint="Nombre completo"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/etEmail"
+        android:id="@+id/etEmailRegistro"
         android:hint="Correo electrónico"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF"
         android:inputType="textEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/etPasswordRegistro"
         android:hint="Contraseña"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+    <EditText
+        android:id="@+id/etPasswordRegistro2"
+        android:hint="Confirmar contraseña"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF"
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,4 +58,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#2B3B89"
         android:text="Registrar cuenta" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:text="Volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
 </LinearLayout>

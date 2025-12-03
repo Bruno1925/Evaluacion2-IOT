@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvBienvenido"
+            android:text="Bienvenido"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/cardAuriculares"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/card_bg"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:text="🎧 Auriculares"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardCanciones"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/card_bg"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:text="🎵 Canciones"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardInstrumentos"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/card_bg"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:text="🎹 Instrumentos"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardDJ"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/card_bg"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:text="🎚️ Mezcladores / DJ"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:text="Cerrar sesión"
+            android:backgroundTint="#2B3B89"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver" />
+
+
+    </LinearLayout>
+
+</ScrollView>

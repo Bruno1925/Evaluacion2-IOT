@@ -15,6 +15,9 @@
         <activity android:name=".RegistrarCuentaActivity"/>
         <activity android:name=".RecuperarClaveActivity"/>
         <activity android:name=".LoginActivity"/>
+        <activity android:name=".TiendaSectionActivity" />
+        <activity android:name=".HomeActivity" />
+
 
         <activity
             android:name=".SplashActivity"
